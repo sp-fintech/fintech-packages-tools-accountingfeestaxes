@@ -1,0 +1,44 @@
+{
+	"name" : "AccountingFeestaxes",
+	"display_name" : "Fintech Accounting Fees & Taxes",
+	"description" : "<p>Accounting fees and taxes package to manage fees and taxes</p>",
+	"module_type" : "packages",
+	"app_type" : "fintech",
+	"category" : "tools",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-fintech/fintech-packages-tools-accountingfeestaxes",
+	"class" : "Apps\\Fintech\\Packages\\Accounting\\Feestaxes\\AccountingFeestaxes",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.14",
+			"repo" : "https://github.com/sp-framework/core"
+		},
+		"apptype" : 
+		{
+			"name" : "Fintech",
+			"version" : "0.3.0",
+			"repo" : "https://github.com/sp-fintech/fintech"
+		},
+		"packages" : [],
+		"middlewares" : [],
+		"externals" : 
+		{
+			"composer" : 
+			{
+				"require" : []
+			},
+			"config" : 
+			{
+				"allow-plugins" : []
+			},
+			"extra" : 
+			{
+				"patches" : []
+			}
+		}
+	},
+	"settings" : []
+}
